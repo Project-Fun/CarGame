@@ -20,3 +20,14 @@ D:\OneDrive\GitHub\Racegame\obj\Debug\netcoreapp2.0\RacingGame.AssemblyInfoInput
 D:\OneDrive\GitHub\Racegame\obj\Debug\netcoreapp2.0\RacingGame.AssemblyInfo.cs
 D:\OneDrive\GitHub\Racegame\obj\Debug\netcoreapp2.0\RacingGame.dll
 D:\OneDrive\GitHub\Racegame\obj\Debug\netcoreapp2.0\RacingGame.pdb
+D:\Github\RaceGame\bin\Debug\netcoreapp2.0\RacingGame.deps.json
+D:\Github\RaceGame\bin\Debug\netcoreapp2.0\RacingGame.runtimeconfig.json
+D:\Github\RaceGame\bin\Debug\netcoreapp2.0\RacingGame.runtimeconfig.dev.json
+D:\Github\RaceGame\bin\Debug\netcoreapp2.0\RacingGame.dll
+D:\Github\RaceGame\bin\Debug\netcoreapp2.0\RacingGame.pdb
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.csprojResolveAssemblyReference.cache
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.csproj.CoreCompileInputs.cache
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.AssemblyInfoInputs.cache
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.AssemblyInfo.cs
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.dll
+D:\Github\RaceGame\obj\Debug\netcoreapp2.0\RacingGame.pdb

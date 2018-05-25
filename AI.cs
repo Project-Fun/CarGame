@@ -1,15 +1,15 @@
 using System;
 using SplashKitSDK;
 
-public abstract class Car : IMoveable
+public abstract class AI : IMovable
 {
-    public Bitmap _CarBitmap;
-    public bool IsOverLine = false;
-    public double Y;
+    public Bitmap CarBitmap;
     public double X;
+    public double Y;
+    public double Speed;
     public int Lane;
-    public int speed;
-    public Car()
+    public bool IsOverLine;
+    public AI()
     {
         double r = SplashKit.Rnd();
         if (r < 0.2)
@@ -39,14 +39,15 @@ public abstract class Car : IMoveable
         }
     }
 
-    public virtual void Move() { }
     public void Draw()
     {
-        _CarBitmap.Draw(X, Y);
+        CarBitmap.Draw(X, Y);
     }
+
+    public virtual void Move() { }
 
     public bool ColliedWith(Player p)
     {
-        return _CarBitmap.BitmapCollision(X, Y, p._CarBitmap, p.X, p.Y);
+        return CarBitmap.BitmapCollision(X, Y, p.CarBitmap, p.X, p.Y);
     }
 }

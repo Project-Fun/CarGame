@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\GitHub\\Racegame\\RacingGame.csproj",
+      "projectUniqueName": "D:\\Github\\RaceGame\\RacingGame.csproj",
       "projectName": "RacingGame",
-      "projectPath": "D:\\OneDrive\\GitHub\\Racegame\\RacingGame.csproj",
+      "projectPath": "D:\\Github\\RaceGame\\RacingGame.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive\\GitHub\\Racegame\\obj\\",
+      "outputPath": "D:\\Github\\RaceGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

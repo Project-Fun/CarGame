@@ -1,29 +1,31 @@
 using System;
 using SplashKitSDK;
 
-public interface IMoveable
-{
-    void Move();
-}
 public class Program
 {
     public static void Main()
     {
-        Window window = new Window("RaceGame", 800, 800);
-        RaceGame rGame = new RaceGame(window);
-        while (!window.CloseRequested && !rGame.ESC)
+        Window _window = new Window("RaceGame", 800, 800);
+        RaceGame _raceGame = new RaceGame(_window);
+
+        while (!_window.CloseRequested && !_raceGame.ESC)
         {
-            if (rGame.Restart)
+            if (_raceGame.Restart)
             {
-                rGame = new RaceGame(window);
+                _raceGame = new RaceGame(_window);
             }
-            window.Clear(Color.RGBColor(193, 154, 107));
-            rGame.Update();
-            rGame.Draw();
-            window.Refresh();
+            SplashKit.ProcessEvents();
+            _window.Clear(Color.RGBColor(193, 154, 107));
+            _raceGame.Update();
+            _raceGame.Draw();
+            _window.Refresh();
         }
-        window.Close();
-        window = null;
+        _window.Close();
+        _window = null;
     }
 }
 
+public interface IMovable
+{
+    void Move();
+}

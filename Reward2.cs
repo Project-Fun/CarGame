@@ -1,16 +1,16 @@
 using System;
 using SplashKitSDK;
 
-public class Reward2 : Car, IMoveable
+public class Reward2 : AI, IMovable
 {
     public Reward2()
     {
-        _CarBitmap = SplashKit.BitmapNamed("Reward2");
-        Y = -_CarBitmap.Height;
+        CarBitmap = SplashKit.BitmapNamed("Reward2");
+        Y = -CarBitmap.Height;
     }
 
     public override void Move()
     {
-        Y += speed * 2;
+        Y += Speed * 2;
     }
 }
